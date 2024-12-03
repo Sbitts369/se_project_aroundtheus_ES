@@ -51,9 +51,19 @@
   border: none;
 }
 
+@media screen and (max-width: 618px) {
+  .card__item {
+    margin-bottom: 32px;
+  }
+}
+
 @media screen and (max-width: 440px) {
   .cards {
     width: 100%;
+    margin: 0 auto;
+  }
+
+  .card {
     margin: 0 auto;
   }
 }
