@@ -33,3 +33,7 @@
   margin: auto 0;
   border: none;
 }
+
+.card__like-button:hover {
+  opacity: 50%;
+}
