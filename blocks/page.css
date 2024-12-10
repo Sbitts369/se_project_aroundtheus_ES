@@ -18,12 +18,6 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 890px) {
-  .page__content {
-    padding: 0 19px;
-  }
-}
-
 @media screen and (max-width: 618px) {
   .page__section {
     max-width: 282px;

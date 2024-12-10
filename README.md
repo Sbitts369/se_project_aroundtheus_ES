@@ -26,3 +26,6 @@ This project is made so all the elements are displayed correctly on popular scre
 ![Project Screenshot](./images/latemar.png)
 ![Project Screenshot](./images/vanoise-national-park.png)
 ![Project Screenshot](./images/yosemite-valley.png)
+
+**Video**
+https://drive.google.com/drive/folders/1R6grOvq0conbPTgraRvbd8aoR-3j4_WB?usp=drive_link

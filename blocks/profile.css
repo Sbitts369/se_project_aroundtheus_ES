@@ -18,7 +18,6 @@
 .profile__info {
   display: grid;
   grid-template-columns: minmax(auto, 375px) auto;
-  column-gap: 18px;
 }
 
 .profile__title {
@@ -71,6 +70,15 @@
   opacity: 60%;
 }
 
+@media screen and (max-width: 880px) {
+  .profile__add-button {
+    margin-right: 19px;
+  }
+  .profile__image {
+    margin-left: 19px;
+  }
+}
+
 @media screen and (max-width: 770px) {
   .profile__info {
     width: 100%;
@@ -88,7 +96,7 @@
   }
 
   .profile__edit-button {
-    margin: 0;
+    margin: 0 15px 0;
   }
 
   .profile__occupation {
@@ -123,7 +131,6 @@
   .profile__info {
     display: grid;
     max-width: 282px;
-    column-gap: 10px;
     width: 100%;
     padding-bottom: 6px;
   }
@@ -144,6 +151,7 @@
   .profile__occupation {
     font-size: 14px;
     line-height: 16.94px;
-    padding: 0;
+    padding-left: 36px;
+    justify-self: center;
   }
 }
