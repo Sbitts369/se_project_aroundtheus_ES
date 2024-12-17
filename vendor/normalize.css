@@ -1,3 +1,5 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
 /* Document
    ========================================================================== */
 
@@ -38,12 +40,6 @@ main {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
-}
-
-h2 {
-  margin: 0;
-  font-weight: 900;
-  font-size: 24px;
 }
 
 /* Grouping content

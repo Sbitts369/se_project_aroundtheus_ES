@@ -2,6 +2,19 @@
 
 This project is an adaptive webpage, that is suitable for screen resolution 320px and upwards.
 
+## Technologies and techniques Used
+
+### Frontend:
+
+- **HTML**: used for structuring the web development
+- **CSS**: used for styling the web development
+
+### Additional sources:
+
+- **Chatgpt**: looking for general structures of files
+- **GitHub**: A cloud-based platform for hosting Git repositories and collaborating on code.
+- **google**: Additional help in cases of struggle
+
 ### Overview
 
 - Intro

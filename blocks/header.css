@@ -1,13 +1,13 @@
 .header {
   margin: 0 auto;
-  border-bottom: 1px rgba(84, 84, 84, 1) solid;
+  border-bottom: 0.7px rgba(84, 84, 84, 1) solid;
   min-width: 320px;
   max-width: 880px;
 }
 
 .header__logo {
   margin: 45px auto 41px;
-  max-width: 173px;
+  width: 173px;
 }
 
 @media screen and (max-width: 880px) {

@@ -17,7 +17,8 @@
   padding: 25px 20px;
   justify-content: space-between;
   margin: 0;
-  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .card__title {
@@ -32,6 +33,7 @@
   height: 18px;
   margin: auto 0;
   border: none;
+  cursor: pointer;
 }
 
 .card__like-button:hover {

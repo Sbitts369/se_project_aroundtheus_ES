@@ -4,7 +4,7 @@
   font-size: 24px;
 }
 
-.card__item {
+.cards__item {
   list-style-type: none;
   display: grid;
   justify-content: center;
@@ -13,11 +13,17 @@
   grid-gap: 20px 17px;
   padding: 0;
   margin-top: 51px;
-  margin-bottom: 67px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .cards__item {
+    margin: 51px 5px 0;
+  }
 }
 
 @media screen and (max-width: 618px) {
-  .card__item {
+  .cards__item {
     margin-bottom: 32px;
   }
 }
