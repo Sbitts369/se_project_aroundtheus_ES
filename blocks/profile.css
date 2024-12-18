@@ -35,7 +35,6 @@
 .profile__occupation {
   margin-top: 16px;
   font-size: 18px;
-  max-width: 415px;
   line-height: 1.21;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -85,7 +84,6 @@
 
 @media screen and (max-width: 770px) {
   .profile__info {
-    width: 100%;
     column-gap: 10px;
   }
 
@@ -115,6 +113,28 @@
     gap: 30px;
   }
 
+  .profile__info {
+    max-width: 282px;
+    grid-template-columns: none;
+    column-gap: 0;
+    grid-template-areas:
+      "title edit"
+      "occupation occupation";
+    justify-items: center;
+  }
+
+  .profile__title {
+    justify-self: end;
+    grid-area: title;
+  }
+
+  .profile__edit-button {
+    padding: 0;
+    margin: 0 0 0 10px;
+    justify-self: start;
+    grid-area: edit;
+  }
+
   .profile__add-button {
     margin: 0;
     width: 100%;
@@ -123,6 +143,8 @@
 
   .profile__occupation {
     margin: 0 auto;
+    grid-area: occupation;
+    max-width: 282px;
   }
 }
 
@@ -135,30 +157,22 @@
     max-width: 282px;
     width: 100%;
     padding-bottom: 6px;
-    grid-template-columns: none;
-    column-gap: 0;
-    grid-template-areas: "title edit" "occupation occupation";
-    justify-content: center;
   }
 
   .profile__title {
     font-size: 22px;
     padding: 0 0 10px;
     margin: 0;
-    grid-area: title;
   }
 
   .profile__edit-button {
     width: 18px;
     height: 18px;
     padding: 0;
-    grid-area: edit;
-    margin: 0 0 0 10px;
   }
 
   .profile__occupation {
     font-size: 14px;
     line-height: 16.94px;
-    grid-area: occupation;
   }
 }
