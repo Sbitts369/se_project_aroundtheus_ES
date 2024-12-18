@@ -2,6 +2,9 @@
 
 This project is an adaptive webpage, that is suitable for screen resolution 320px and upwards.
 
+**link to webpage**:
+https://sbitts369.github.io/se_project_aroundtheus_ES/
+
 ## Technologies and techniques Used
 
 ### Frontend:
