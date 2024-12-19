@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
+  padding: 0;
 }
 
 .page__section {
@@ -21,5 +22,6 @@
 @media screen and (max-width: 618px) {
   .page__section {
     max-width: 282px;
+    max-height: vh;
   }
 }
