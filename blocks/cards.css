@@ -4,7 +4,7 @@
   font-size: 24px;
 }
 
-.cards__item {
+.cards__list {
   list-style-type: none;
   display: grid;
   justify-content: center;
